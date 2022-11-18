@@ -4,8 +4,8 @@ const PageOne = () => {
   return (
     <div className='pageOne'>
         <div>
-            <h1>Eve Drake</h1>
-            <h2>Front End Development</h2>
+            <h1>AHHHHH</h1>
+            <h2>sdifog[asfhgsdfh</h2>
         </div>
     </div>
   )

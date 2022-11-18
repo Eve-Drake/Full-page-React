@@ -8,9 +8,27 @@
 }
 
 #nav{
-  display: block;
+  position: fixed;
+  display: grid;
+  width: 100vw;
+  background-color: #895a99;
+
 }
 
+#nav li{
+  display: inline; 
+}
+#nav a{  
+  color: #db8b69;
+  padding: 0.8em;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+#nav a:hover{
+  color: #4e4351;
+  border-bottom: 2px #4e4351 solid;
+}
 .pageOne{
   width: 100vw;
   height: 100vh;
