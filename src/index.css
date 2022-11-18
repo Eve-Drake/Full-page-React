@@ -29,14 +29,27 @@
 }
 
 .pageTwo{
+  overflow-y: hidden;
   width: 100vw;
   height: 100vh;
   background-color: #485782;
   color: #fd5f5e;
+  display: grid;
+  grid-template-columns: 2;
+}
+
+.pageTwoText{
+  grid-column: 1/2;
+  padding: 10px;
+  max-width: 50vw;
 }
 
 .imageWithOverlay{
-  display: grid;
+  grid-column: 2/2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+  padding-top: 50vh;
   border-radius: 15px;
 	box-shadow: -25px -50px rgba(0,0,0,0.4);
 	grid-template-columns: max-content auto;
@@ -46,6 +59,10 @@
 	width: 400px;
 	height: 300px;
 	padding: 2rem;
+}
+
+.imageWithOverlay h2{
+  font-size: 2vw;
 }
 
 .pageThree{
