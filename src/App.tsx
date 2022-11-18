@@ -7,10 +7,18 @@ import PageFour from './PageFour'
 function App() {
   return (
     <div>
-      <PageOne />
-      <PageTwo />
-      <PageThree />
-      <PageFour />
+      <nav id='nav'>
+        <ul>
+          <li><a href='#one'>Top</a></li>
+          <li><a href='#two'>About</a></li>
+          <li><a href='#three'>Projects</a></li>
+          <li><a href='#four'>Contact</a></li>
+        </ul>
+      </nav>
+      <div id='one'><PageOne /></div>
+      <div id='two'><PageTwo /></div>
+      <div id='three'><PageThree /></div>
+      <div id='four'><PageFour /></div>
     </div>
   )
 }
