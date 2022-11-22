@@ -95,6 +95,16 @@
   background-color: #ff8d0d;
   color: #485782;
 }
+
+.pageThree h1{
+  padding-top: 0.9em;
+}
+
+.pageThree .container{
+  display: grid;
+  
+}
+
 .pageFour{
   width: 100vw;
   height: 100vh;

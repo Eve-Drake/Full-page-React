@@ -3,7 +3,12 @@ import React from 'react'
 const PageThree = () => {
   return (
     <div className='pageThree'>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum soluta, omnis consequatur incidunt tenetur et molestias laudantium est eaque enim sit pariatur doloribus corporis a nulla repellendus corrupti autem!</h1>
+      <h1>Projects</h1>
+      <div className='container'>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+      </div>
     </div>
   )
 }
