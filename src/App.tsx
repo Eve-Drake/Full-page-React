@@ -3,6 +3,7 @@ import PageOne from './PageOne'
 import PageTwo from './PageTwo'
 import PageThree from './PageThree'
 import PageFour from './PageFour'
+import PageFive from './PageFive'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <div id='two'><PageTwo /></div>
       <div id='three'><PageThree /></div>
       <div id='four'><PageFour /></div>
+      <div id='five'><PageFive /></div>
     </div>
   )
 }
